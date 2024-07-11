@@ -760,6 +760,16 @@ h1,h2,h3,h4,h5,h6 {
   height: 70px;
 }
 
+.size-\[52\] {
+  width: 52;
+  height: 52;
+}
+
+.size-\[52px\] {
+  width: 52px;
+  height: 52px;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -782,6 +792,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[520px\] {
+  height: 520px;
 }
 
 .w-\[567px\] {
@@ -818,6 +836,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .max-w-3xl {
   max-width: 48rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[382px\] {
+  max-width: 382px;
 }
 
 .flex-1 {
@@ -872,6 +898,14 @@ h1,h2,h3,h4,h5,h6 {
   gap: 2rem;
 }
 
+.gap-\[27px\] {
+  gap: 27px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
 .gap-x-\[104px\] {
   -moz-column-gap: 104px;
        column-gap: 104px;
@@ -897,8 +931,20 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 9999px;
 }
 
+.rounded-\[62px\] {
+  border-radius: 62px;
+}
+
+.border {
+  border-width: 1px;
+}
+
 .border-t {
   border-top-width: 1px;
+}
+
+.border-primary\/20 {
+  border-color: rgb(41 47 54 / 0.2);
 }
 
 .bg-accent-secondary {
@@ -948,9 +994,18 @@ h1,h2,h3,h4,h5,h6 {
   padding: 2.25rem;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .pb-\[110px\] {
@@ -973,6 +1028,10 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 
+.font-primary {
+  font-family: DM Serif Display;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -991,6 +1050,11 @@ h1,h2,h3,h4,h5,h6 {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1039,6 +1103,16 @@ h1,h2,h3,h4,h5,h6 {
 
 .hover\:bg-accent\/20:hover {
   background-color: rgb(205 162 116 / 0.2);
+}
+
+.hover\:bg-accent-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 236 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 960px) {
@@ -1117,6 +1191,10 @@ h1,h2,h3,h4,h5,h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1131,6 +1209,15 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:rounded-bl-\[290px\] {
     border-bottom-left-radius: 290px;
+  }
+
+  .xl\:border-r {
+    border-right-width: 1px;
+  }
+
+  .xl\:border-accent {
+    --tw-border-opacity: 1;
+    border-color: rgb(205 162 116 / var(--tw-border-opacity));
   }
 
   .xl\:bg-grid {
@@ -1148,6 +1235,11 @@ h1,h2,h3,h4,h5,h6 {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:py-\[150px\] {
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   .xl\:text-left {
